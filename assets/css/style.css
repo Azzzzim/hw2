@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  height: 100%;
+  background: white;
+  background: url(../css/img/final-cover-forest.jpg) no-repeat left / cover;
+}
+
+.navigation-b {
+  display: flex;
+  flex-direction: row;
+
+  font-size: 20px;
+  list-style: none;
+}
+a {
+  color: darkcyan;
+  text-decoration: none;
+}
+.logo-a {
+  color: white;
+}
+.sing-a {
+  color: white;
+}
+
+.icons {
+  display: flex;
+  width: 200px;
+  height: 90px;
+  background: white;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  background: none;
+  margin-right: 1000px;
+  margin-left: 30px;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 4px;
+  color: white;
+}
+.icons:hover {
+  background: rgb(184, 184, 184);
+  width: 210px;
+  height: 100px;
+}
+
+.shadow {
+  color: whitesmoke;
+  border: none;
+  -webkit-box-shadow: 4px 43px 4px 22px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 43px 4px 22px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 43px 4px 22px rgba(34, 60, 80, 0.2);
+  margin-top: 0;
+}
+.sign {
+  background: darkcyan;
+  margin-right: -10px;
+}
+.sign:hover {
+  background: dodgerblue;
+}
+.card-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 20px;
+  font-size: 60px;
+  margin-top: 90px;
+  margin-left: 100px;
+  background: url(../css/img/Traveler-Mockup-600x450.jpg) no-repeat center/cover;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  width: 1200px;
+  height: 600px;
+  -webkit-box-shadow: 4px 18px 8px 9px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 18px 8px 9px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 18px 8px 9px rgba(34, 60, 80, 0.2);
+
+  color: dodgerblue;
+  border-radius: 14px;
+}
+
+.pic {
+  border-radius: 14px;
+  margin-right: 20px;
+}
+p {
+  font-size: 20px;
+  padding: 20px;
+}
+.sections {
+  list-style: none;
+  color: black;
+}
+/* PRODUCTIONS! */
+.product {
+  display: inline-block;
+  background: white;
+  color: darkcyan;
+  margin: 100px 50px 0px 50px;
+  width: 350px;
+  height: 400px;
+  text-align: center;
+  border-radius: 7px;
+}
+.trainers {
+  border-radius: 7px;
+  width: 350px;
+  height: 250px;
+  border: groove 2px darkcyan;
+}
+.trainers-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  padding: 5px;
+  text-align: center;
+
+  color: darkcyan;
+}
+.product:hover {
+  background: rgb(194, 193, 193);
+}
+.hr2 {
+  margin: 10px;
+  background: dodgerblue;
+  border: dodgerblue;
+}
+button {
+  width: 200px;
+  height: 60px;
+  border-radius: 20px;
+  border: darkcyan 0px;
+  margin-top: 20px;
+  background: darkcyan;
+  color: white;
+}
+.powered-by {
+  margin: 20px;
+  padding: 20px;
+  color: black;
+  font-size: 14px;
+}
+.hr3 {
+  border: 0px;
+}
